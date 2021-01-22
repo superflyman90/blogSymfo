@@ -14,8 +14,25 @@ body {
     // position: relative;
     // top: -22px;
     display: flex;
-    h1 {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .title {
+      display: inline-block;
       line-height: 70px;
+    }
+    .menu {
+      .menu-link {
+        display: inline-block;
+        list-style-type: none;
+        line-height: 110px;
+        margin-left: 25px;
+        .menu-item {
+          color: $color-header;
+          text-decoration: none;
+          font-size: 1.5em;
+        }
+      }
     }
   }
 }
