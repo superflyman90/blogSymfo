@@ -1,0 +1,15 @@
+$bg-header: #293445;
+$color-header: #fff;
+
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  header {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    background-color: $bg-header;
+    color: $color-header;
+  }
+}
